@@ -1,4 +1,5 @@
 const OpenAI = require('openai-api');
+console.log("The Opena AI Key",process.env.OPENAI_API_KEY)
 const openai = new OpenAI(process.env.OPENAI_API_KEY);
 export default async (req, res) => {
   const beforePrompt = ``;

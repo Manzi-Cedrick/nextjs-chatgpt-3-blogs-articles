@@ -166,3 +166,6 @@
     flex-direction: column;
   }
 }
+.span{
+  white-space: pre-line;
+}
